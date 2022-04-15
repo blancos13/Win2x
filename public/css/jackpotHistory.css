@@ -1,0 +1,53 @@
+.history-component {
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.05);
+    box-shadow: 0px 15px 15px -1px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    height: 100%;
+    width: 100%
+}
+
+@media (max-width: 820px) {
+    .history-component {
+        margin-bottom:30px
+    }
+}
+
+.history-component .history-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px
+}
+
+@media (max-width: 500px) {
+    .history-component .history-head {
+        flex-direction:column
+    }
+
+    .history-component .history-head .history-link {
+        margin-top: 15px
+    }
+}
+
+.history-component .history-caption {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600
+}
+
+.game-stats table tbody tr td:first-child, .game-stats .table-heading .th:first-child {
+	width: 10%;
+}
+
+@media (max-width: 500px) {
+	.game-stats .btn {
+		padding: 2px;
+	}
+    .game-stats .table tr td:nth-child(3), .game-stats .table tr td:nth-child(3), .game-stats .table tr td:nth-child(4), .game-stats .table tr td:nth-child(4) {
+        display: none;
+    }
+    .game-stats .table-heading .th:nth-child(3), .game-stats .table-heading .th:nth-child(3), .game-stats .table-heading .th:nth-child(4), .game-stats .table-heading .th:nth-child(4) {
+        display: none;
+    }
+}

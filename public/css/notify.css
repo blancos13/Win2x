@@ -1,0 +1,133 @@
+.notify {
+    position: fixed;
+    z-index: 999999;
+    height: 0;
+    top: 15px;
+    left: 50%
+}
+
+.notify__item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    -webkit-transition: opacity .3s,-webkit-transform .4s;
+    transition: opacity .3s,-webkit-transform .4s;
+    transition: transform .4s,opacity .3s;
+    transition: transform .4s,opacity .3s,-webkit-transform .4s;
+    transform: translateY(5px) translateX(-50%);
+}
+
+.notify__item.success {
+    color: #66bb6a
+}
+
+.notify__item.error {
+    color: #ef5350
+}
+
+.notify__item.info {
+    color: #42a5f5
+}
+
+.notify__item.default {
+    color: #bdbdbd
+}
+
+.notify__item.show {
+    opacity: 1
+}
+
+.notify__item:not(.show) {
+    z-index: 0;
+    opacity: 0
+}
+
+.notify__item-wrap {
+    font-size: 11px;
+    line-height: 14px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    box-sizing: border-box;
+    max-width: 400px;
+    min-width: 320px;
+    min-height: 50px;
+    padding: 10px 45px 10px 60px;
+    -webkit-transition: box-shadow .3s;
+    transition: box-shadow .3s;
+    -webkit-animation: showUp .4s;
+    animation: showUp .4s;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 3px 15px #676767
+}
+
+.notify__aside,.notify__item-wrap {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    justify-content: center
+}
+
+.notify__aside {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 60px;
+    text-align: center;
+    -webkit-align-items: center;
+    align-items: center
+}
+
+.notify__aside img {
+    -webkit-animation: showIcon .5s;
+    animation: showIcon .5s
+}
+
+.notify__title {
+    padding-bottom: 5px;
+    color: #616161;
+    font-size: 15px
+}
+
+.notify__message {
+    color: #9e9e9e
+}
+
+.notify__close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 40px;
+    text-align: center;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 22px;
+    color: #bdbdbd;
+    -webkit-transition: background-color .4s;
+    transition: background-color .4s;
+    border: none;
+    outline: none;
+    cursor: pointer
+}
+
+.notify__close:active,.notify__close:focus {
+    outline: none
+}
+
+.notify__close:hover {
+    background-color: #fafafa;
+    outline: none
+}

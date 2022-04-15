@@ -1,0 +1,305 @@
+.game_Wheel {
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    background-color: rgba(255, 255, 255, 0.05);
+    box-shadow: 0px 15px 15px -1px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    -webkit-flex: auto;
+    flex: auto;
+}
+
+.wheel-game {
+	height: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.wheel-content {
+    width: 100%;
+    position: relative;
+    max-width: 497px;
+    margin: auto;
+}
+
+.wheel-content svg {
+	transform: scale(1);
+}
+
+.time .block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 100%;
+    z-index: 1;
+}
+
+.time .block .title {
+    color: #959fb1;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.time .block .value.bank {
+    font-size: 28px;
+    line-height: 35px;
+}
+.time .block .value {
+    font-size: 42px;
+    font-weight: 600;
+    color: #ffc645;
+    font-family: Exo\ 2;
+    line-height: 45px;
+}
+
+.time .block .line {
+    width: 150px;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.05);
+    margin: 10px;
+}
+
+@media (max-width: 820px) {
+	.wheel-content svg {
+		transform: scale(0.75);
+	}
+}
+
+.history_wrapper {
+    padding: 0 20px;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.history_history {
+    min-height: 10px;
+    /* margin-bottom: 10px; */
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    -webkit-align-items: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.history_item {
+    width: 7.14%;
+    height: 5px;
+    border-radius: 3px;
+    background: transparent;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.history_item:last-child {
+    margin-right: 0
+}
+
+.history_item.history_red {
+    background: #e86376
+}
+
+.history_item.history_blue {
+    background: #4986f5
+}
+
+.history_isAnimate {
+    -webkit-animation: shiftFromLeft .3s linear;
+    animation: shiftFromLeft .3s linear
+}
+
+.hash {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 0 0 6px 6px;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.command-type {
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid hsla(0,0%,59.2%,.12);
+    border-radius: 6px
+}
+
+.command-type,.command-type .btn-bet {
+    display: -webkit-flex;
+    display: flex
+}
+
+.command-type .btn-bet {
+    font-size: 12px;
+    overflow: hidden;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-right: 8px;
+    cursor: pointer;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    text-align: left;
+    color: #fff;
+    border: 2px transparent;
+    outline: none;
+    border-radius: 6px;
+    background: #4986f5;
+    opacity: .5;
+}
+
+.command-type .btn-bet.isActive {
+    opacity: 1 !important;
+}
+
+.command-type .btn-bet:focus,.command-type .btn-bet:hover {
+    outline: none
+}
+
+.command-type .btn-bet:hover {
+    opacity: 1 !important;
+}
+
+.command-type .btn-bet:last-child {
+    margin-right: 0
+}
+
+.command-type .btn-bet.bet-blue {
+    color: #f1f1f2;
+    background: #4986f5
+}
+
+.command-type .btn-bet.bet-blue .bet-chance {
+    background: rgba(31,85,183,.18)
+}
+
+.command-type .btn-bet.bet-red {
+    color: #67110b;
+    background: #e86376;
+}
+
+.command-type .btn-bet.bet-red .bet-chance {
+    background: rgba(136, 29, 44, 0.18)
+}
+
+.command-type .bet-chance {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex: none;
+    flex: none;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 100%;
+    padding: 8px;
+    background: rgba(0,0,0,.08)
+}
+
+.command-type .bet-chance .chance-text {
+    line-height: 18px;
+    text-align: center
+}
+
+.command-type .bet-chance .chance-text span {
+    font-size: 17px;
+    font-weight: 600
+}
+
+.command-type .bet-text {
+    font-size: 16px;
+    font-weight: 600;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 36px;
+    padding: 0
+}
+
+@media screen and (max-width: 1170px) {
+    .command-type {
+        padding: 0;
+        border: 0
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .command-type {
+        padding:0;
+        border: 0
+    }
+
+    .command-type .bet-chance {
+        padding: 5px
+    }
+
+    .command-type .bet-text {
+        font-size: 15px;
+        height: 33px
+    }
+}
+
+@media screen and (max-width: 1099px) {
+    .wheel-game {
+        transform: scale(0.8);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wheel-game {
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .wheel-game {
+        transform: scale(0.8);
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .wheel-game {
+        transform: scale(0.7);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .wheel-game {
+        transform: scale(0.6);
+    }
+}
+
+.bet-type {
+    font-weight: 700;
+}
+.bet-type.bet_blue {
+    color: #4986f5;
+}
+.bet-type.bet_red {
+    color: #e86376;
+}

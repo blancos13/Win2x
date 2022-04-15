@@ -1,0 +1,160 @@
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor
+}
+
+.icon-basket {
+    width: 1.142578125em
+}
+
+.icon-more {
+    width: 3.25em
+}
+
+.icon-arrow-down,.icon-arrow-up {
+    width: 1.111328125em
+}
+
+.icon-club {
+    width: 1.01171875em
+}
+
+.icon-coin {
+    width: .9111328125em
+}
+
+.icon-coin.balance {
+    fill: #62ca5b;
+}
+
+.icon-coin.bonus {
+    fill: #ffc645;
+}
+
+.icon-conversations {
+    width: 1.1669921875em
+}
+
+.icon-copy {
+    width: .77734375em
+}
+
+.icon-diamond {
+    width: .875em
+}
+
+.icon-double-down {
+    width: 1.0908203125em
+}
+
+.icon-double-up {
+    width: 1.142578125em
+}
+
+.icon-down {
+    width: .6669921875em
+}
+
+.icon-facebook {
+    width: .5380859375em
+}
+
+.icon-faq {
+    width: .8662109375em
+}
+
+.icon-heart {
+    width: 1.142578125em
+}
+
+.icon-hilo {
+    width: .818359375em
+}
+
+.icon-instagram {
+    width: .9228515625em
+}
+
+.icon-left {
+    width: .6669921875em
+}
+
+.icon-logout {
+    width: 1.125em
+}
+
+.icon-minus {
+    width: .7861328125em
+}
+
+.icon-person {
+    width: .857421875em
+}
+
+.icon-plus {
+    width: .7861328125em
+}
+
+.icon-stats {
+    width: 1.818359375em
+}
+
+.icon-rouble1 {
+    width: .7138671875em
+}
+
+.icon-send {
+    width: .888671875em
+}
+
+.icon-smile {
+    width: 1.06640625em
+}
+
+.icon-sound {
+    width: .9228515625em
+}
+
+.icon-spade {
+    width: .9091796875em
+}
+
+.icon-support {
+    width: .9375em
+}
+
+.icon-thumb-down {
+    width: 1.03125em
+}
+
+.icon-twitter {
+    width: 1.181640625em
+}
+
+.icon-vk {
+    width: 1.4443359375em
+}
+
+.icon-wand {
+    width: 1.0625em
+}
+
+.icon-check-square-o {
+    width: .9324999999999999em
+}
+
+.icon-square-o {
+    width: .7857142857142857em
+}
+
+.icon-usd {
+    width: .5697857142857142em
+}
+
+.icon-rub {
+    width: .7142857142857142em
+}
