@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Open Sans Light"), local("OpenSans-Light"),
+    url(open-sans-300.woff2) format("woff2"),
+    url(open-sans-300.woff) format("woff");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans Regular"), local("OpenSans-Regular"),
+    url(open-sans-400.woff2) format("woff2"),
+    url(open-sans-400.woff) format("woff");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"),
+    url(open-sans-600.woff2) format("woff2"),
+    url(open-sans-600.woff) format("woff");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Open Sans Bold"), local("OpenSans-Bold"),
+    url(open-sans-700.woff2) format("woff2"),
+    url(open-sans-700.woff) format("woff");
+}
+@font-face {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Exo 2 Semi Bold"), local("Exo2-SemiBold"),
+    url(exo-2-600.woff2) format("woff2"), url(exo-2-600.woff) format("woff");
+}
+@font-face {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 800;
+  src: local("Exo 2 Extra Bold"), local("Exo2-ExtraBold"),
+    url(exo-2-800.woff2) format("woff2"), url(exo-2-800.woff) format("woff");
+}
