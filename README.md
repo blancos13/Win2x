@@ -1,5 +1,7 @@
 Crypto Casino with Aviator, Crash , Dice , Flip, Jackpot, wheel, Pvp and more features.
 
+Discord : ZeroByte#1337
+
 ![image](https://user-images.githubusercontent.com/94198465/208200275-9d6fd2c6-0ffd-4e9d-8856-710d788830d0.png)
 
 Installation 
