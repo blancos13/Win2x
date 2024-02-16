@@ -1,6 +1,6 @@
 Crypto Casino with Slots, Aviator, Crash , Dice , Flip, Jackpot, wheel, Pvp and more features.
 
-Discord : ZeroByte#4701
+Discord : zerobyte13
 Telegram : @blancos13
 Free Setup + Latest files 100$
 
