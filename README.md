@@ -8,10 +8,18 @@ Discord : zerobyte13
 Telegram : @blancos13
 
 live games api : 500$ or %8 rtp
+
 casino software : 1000$
+
 slots games api : 500$ or %8 rtp
 
+Installation 
 
+put data.sql in your mysql panel
+Composer install
+Npm install
+php artisan migrate
+php artisan serve
 
 
 ![image](https://github.com/ZeroByte4701/Win2x/assets/94198465/2b245e31-ee56-48d1-ac5d-761c9a852fcd)
