@@ -1,8 +1,10 @@
 Crypto Casino with Slots, Aviator, Crash , Dice , Flip, Jackpot, wheel, Pvp and more features.
 
 
-I can code ur projects if you interest 
+I can code ur projects if you interest
+
 Discord : zerobyte13
+
 Telegram : @blancos13
 
 
