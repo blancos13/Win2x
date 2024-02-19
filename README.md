@@ -1,8 +1,10 @@
 Crypto Casino with Slots, Aviator, Crash , Dice , Flip, Jackpot, wheel, Pvp and more features.
 
+
+I can code ur projects if you interest 
 Discord : zerobyte13
 Telegram : @blancos13
-Free Setup + Latest files 100$
+
 
 ![image](https://github.com/ZeroByte4701/Win2x/assets/94198465/2b245e31-ee56-48d1-ac5d-761c9a852fcd)
 
