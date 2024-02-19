@@ -3,6 +3,10 @@ Crypto Casino with Slots, Aviator, Crash , Dice , Flip, Jackpot, wheel, Pvp and 
 
 I can code ur projects if you interest
 
+live games api : 500$ or %8 rtp
+casino software : 1000$
+slots games api : 500$ or %8 rtp
+
 Discord : zerobyte13
 
 Telegram : @blancos13
