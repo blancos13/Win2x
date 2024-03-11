@@ -9,7 +9,8 @@ Telegram : @blancos13
 
 live games api : 500$ or %8 rtp
 
-casino software : 1000$
+casino software : 500$
+custom site : 1000$(start from)
 
 slots games api : 500$ or %8 rtp
 
