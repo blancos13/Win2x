@@ -7,12 +7,16 @@ Discord : zerobyte13
 
 Telegram : @blancos13
 
-live games api : 500$ or %8 rtp
+live games api : 300$ or %10 rtp
 
-casino software : 500$
-custom site : 1000$(start from)
+casino software : 250$ / monthly
+custom site : 500$(start from)
 
-slots games api : 500$ or %8 rtp
+slots games api : 300$ or %8 rtp
+
+![image](https://github.com/ZeroByte4701/Win2x/assets/94198465/4be2aed3-def2-4ceb-a2e9-2e359d6339e6)
+![image](https://github.com/ZeroByte4701/Win2x/assets/94198465/c5cbff3b-adc0-468a-abb1-bc73c9703cf8)
+![image](https://github.com/ZeroByte4701/Win2x/assets/94198465/457c8d1c-1a8d-4eee-bb2e-76a10eed2d66)
 
 Installation 
 
