@@ -3,6 +3,8 @@ Crypto Casino with Slots, Aviator, Crash , Dice , Flip, Jackpot, wheel, Pvp and 
 
 Installation 
 
+![image](https://user-images.githubusercontent.com/94198465/208200275-9d6fd2c6-0ffd-4e9d-8856-710d788830d0.png)
+
 заменить betbase.gg на свой домен
 -------------------------------------------------
 
@@ -235,5 +237,4 @@ cd /var/www/betbase.gg/server
 sudo npm install pm2@latest -g
 
 pm2 start app.js
-![image](https://user-images.githubusercontent.com/94198465/208200275-9d6fd2c6-0ffd-4e9d-8856-710d788830d0.png)
-
+\
