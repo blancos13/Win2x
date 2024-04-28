@@ -1,5 +1,6 @@
 Crypto Casino with Slots, Aviator, Crash , Dice , Flip, Jackpot, wheel, Pvp and more features.
 
+providing setup + latest files for 100$ telegram : blancos13
 
 Installation 
 
